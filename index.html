@@ -90,7 +90,17 @@
         crossorigin="anonymous"></script>
 
   <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+
+  <!-- TypeError: firebase.auth is not a function -->
+  <!-- https://stackoverflow.com/questions/48592656/firebase-auth-is-not-a-function -->
+  <!-- Adicionado <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script> para conseguir usar Autenticacao -->
   <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+
+  <!-- Adicionado para conseguir usar Database -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>-->
+
+  <!-- Adicionado para conseguir usar Storage (Armazanamento de Arquivos) -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-storage.js"></script>-->
 
   <!-- TODO: Add SDKs for Firebase products that you want to use
       https://firebase.google.com/docs/web/setup#config-web-app -->
